@@ -33,6 +33,8 @@ GEM
       ember-source
       execjs
       handlebars-source
+    bootstrap-sass (3.0.3.0)
+      sass (~> 3.2)
     builder (3.1.4)
     ember-data-source (0.14)
       ember-source
@@ -119,6 +121,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.0.3.0)
   ember-rails
   ember-source (= 1.3.0)
   jbuilder (~> 1.2)
