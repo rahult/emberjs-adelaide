@@ -1,4 +1,6 @@
 EmberjsAdelaide::Application.routes.draw do
+  resources :presentations
+
   root :to => 'assets#index'
   get "assets/index"
   # The priority is based upon order of creation: first created -> highest priority.
