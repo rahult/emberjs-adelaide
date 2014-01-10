@@ -12,5 +12,14 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require jquery
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require_self
+//= require emberjs_adelaide
+
+// for more details see: http://emberjs.com/guides/application/
+EmberjsAdelaide = Ember.Application.create();
+
 //= require_tree .
