@@ -21,6 +21,10 @@
 //= require emberjs_adelaide
 
 // for more details see: http://emberjs.com/guides/application/
-EmberjsAdelaide = Ember.Application.create();
+EmberjsAdelaide = Ember.Application.create({
+  LOG_TRANSITIONS: true,
+  LOG_ACTIVE_GENERATION: true,
+  LOG_VIEW_LOOKUPS: true
+});
 
 //= require_tree .
